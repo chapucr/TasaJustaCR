@@ -1,0 +1,586 @@
+Plan de Negocios - TasaJusta CR
+Resumen ejecutivo
+Nombre: TasaJusta CR
+
+Concepto: Primera plataforma comparadora de tasas de interés 100% costarricense que permite a personas y empresas comparar de forma transparente productos financieros (créditos e inversiones) de múltiples entidades, mostrando el Costo Anual Total (CAT) real con todos los costos ocultos.
+
+Problema: Actualmente los costarricenses deben buscar información manualmente en cada entidad financiera para comparar tasas, resultando en un proceso fragmentado, tedioso y que consume mucho tiempo. Los costos ocultos no son evidentes hasta avanzado el proceso.
+
+Solución: Plataforma digital que centraliza y compara tasas de múltiples entidades financieras, facilitando decisiones informadas mediante tecnología (IA, WhatsApp Business, blockchain para verificación).
+
+Mercado objetivo: Costa Rica
+
+Profesionales jóvenes (25-40 años)
+
+PYMEs con necesidad de capital
+
+Personas buscando primer crédito hipotecario
+
+Inversionistas conservadores
+
+Ventaja competitiva: No existen competidores directos en Costa Rica. Posición de first mover en el mercado.
+
+Modelo de negocio:
+
+Comisiones por cada cliente referido que contrata servicio financiero
+
+Feature premium: acceso a WhatsApp Business de entidades para asesoría personalizada
+
+Análisis de mercado
+Situación del sector financiero en Costa Rica
+[Sección a desarrollar: incluir datos sobre]
+
+Número de entidades financieras (bancos públicos, privados, cooperativas, mutuales)
+
+Volumen de créditos otorgados anualmente
+
+Volumen de inversiones/captaciones
+
+Nivel de digitalización del sector
+
+Penetración de smartphones y acceso a internet
+
+Análisis de competencia
+Competencia directa: No existen comparadores de tasas financieras en Costa Rica.
+
+Competencia indirecta:
+
+Búsqueda manual en sitios web de cada entidad financiera
+
+Brokers o asesores financieros tradicionales
+
+Boca a boca y recomendaciones
+
+Ventaja de first mover:
+
+Oportunidad de establecer la marca como referencia
+
+Construir relaciones tempranas con entidades financieras
+
+Definir estándares de comparación en el mercado
+
+Segmentos de clientes
+1. Profesionales jóvenes (25-40 años)
+
+Necesidad: Créditos personales, vehículos, primeras hipotecas
+
+Comportamiento: Digitalmente nativos, buscan conveniencia
+
+Dolor: Poco tiempo para visitar múltiples bancos
+
+2. PYMEs
+
+Necesidad: Capital de trabajo, financiamiento de equipos
+
+Comportamiento: Sensibles a tasas y condiciones
+
+Dolor: Proceso complejo, poca claridad en costos reales
+
+3. Primer crédito hipotecario
+
+Necesidad: Financiamiento para vivienda
+
+Comportamiento: Primera experiencia, alta ansiedad por decisión correcta
+
+Dolor: Desconocimiento de opciones, miedo a equivocarse
+
+4. Inversionistas conservadores
+
+Necesidad: Opciones de inversión seguras con mejor rendimiento
+
+Comportamiento: Buscan maximizar retornos sin riesgo excesivo
+
+Dolor: Difícil comparar rendimientos reales entre entidades
+
+Producto y tecnología
+Propuesta de valor
+Transparencia total: Muestra CAT real incluyendo todos los costos ocultos
+
+Ahorro de tiempo: Comparación centralizada en una sola plataforma
+
+Educación financiera: Contenido que ayuda a entender productos financieros
+
+Confianza local: Primera comparadora 100% tica
+
+Características principales
+Core (gratuito):
+
+Comparador de tasas de múltiples entidades
+
+Cálculo de CAT real
+
+Filtros por tipo de producto, monto, plazo
+
+Información clara y comprensible
+
+Premium (pago):
+
+Redireccionamiento a WhatsApp Business de entidades seleccionadas
+
+Asesoría personalizada directa con instituciones financieras
+
+Alertas de mejores tasas personalizadas
+
+Stack tecnológico
+IA: Matching inteligente entre perfil del usuario y productos óptimos
+
+WhatsApp Business API: Canal de comunicación premium con entidades
+
+Blockchain: Verificación de tasas reportadas para garantizar veracidad
+
+APIs: Integración con entidades financieras para datos en tiempo real
+
+Modelo de negocio
+Estrategia de datos
+Establecer partnerships con entidades financieras para que expongan sus tasas mediante APIs. Beneficio para las entidades: canal de adquisición de clientes calificados.
+
+Flujos de ingresos
+1. Comisiones por referidos (principal)
+
+Cobro por cada cliente que contrata servicio financiero mediante la plataforma
+
+Comisión estimada: [A definir: % del monto del crédito o monto fijo]
+
+Proyección conservadora: [A calcular basado en conversión esperada]
+
+2. Suscripción premium
+
+Acceso a WhatsApp Business de entidades para asesoría directa
+
+Precio estimado: [A definir: ₡X/mes o pago único por consulta]
+
+Target: usuarios con decisiones de alto valor (hipotecas, créditos empresariales grandes)
+
+Unit economics preliminares
+[A desarrollar con datos de mercado:]
+
+Costo de adquisición de cliente (CAC)
+
+Valor de vida del cliente (LTV)
+
+Tasa de conversión esperada (visitas → referidos convertidos)
+
+Comisión promedio por referido
+
+Punto de equilibrio
+
+Consideraciones regulatorias
+Suposición: Al no prestar dinero directamente, TasaJusta CR no requiere licencia de SUGEF o CONASIF.
+
+A validar:
+
+Requisitos para intermediarios financieros en Costa Rica
+
+Obligaciones de divulgación y transparencia
+
+Permisos para uso de datos de tasas de entidades financieras
+
+Protección al consumidor financiero
+
+Plan operacional
+Fase 1: Desarrollo MVP (Meses 1-3)
+Objetivos:
+
+Desarrollar plataforma web básica con comparador funcional
+
+Establecer partnerships con al menos 5 entidades financieras
+
+Validar modelo de comisiones
+
+Actividades clave:
+
+Desarrollo técnico de plataforma
+
+Acercamiento a bancos públicos y privados principales
+
+Definición de acuerdos comerciales
+
+Validación regulatoria con abogado especializado
+
+Fase 2: Lanzamiento y tracción inicial (Meses 4-6)
+Objetivos:
+
+Lanzar plataforma al público
+
+Conseguir primeros 100 usuarios activos
+
+Generar primeros referidos convertidos
+
+Actividades clave:
+
+Marketing digital (SEO, redes sociales)
+
+Partnerships con influencers financieros
+
+Contenido educativo para atracción orgánica
+
+Iteración basada en feedback de usuarios
+
+Fase 3: Escalamiento (Meses 7-12)
+Objetivos:
+
+Expandir a 15+ entidades financieras
+
+Desarrollar app móvil
+
+Implementar feature premium
+
+Alcanzar punto de equilibrio
+
+Actividades clave:
+
+Desarrollo de aplicación móvil iOS/Android
+
+Integración de WhatsApp Business API
+
+Implementación de blockchain para verificación
+
+Expansión de equipo
+
+Equipo fundador
+[A completar:]
+
+Roles y responsabilidades de los fundadores
+
+Experiencia relevante
+
+Estructura de equity
+
+Recursos necesarios
+Equipo inicial requerido:
+
+Desarrollador full-stack
+
+Especialista en partnerships/BD
+
+Marketing digital
+
+Diseñador UX/UI (freelance o part-time)
+
+Tecnología:
+
+Hosting y servidores
+
+APIs y servicios de terceros
+
+Herramientas de desarrollo
+
+Legal:
+
+Constitución de empresa
+
+Asesoría legal regulatoria
+
+Contratos con entidades financieras
+
+Proyecciones financieras
+Supuestos clave
+[A definir con investigación de mercado:]
+
+Mercado:
+
+Tamaño de mercado direccionable (créditos otorgados anualmente)
+
+Tasa de adopción digital en población objetivo
+
+Conversión:
+
+Tráfico mensual esperado (usuarios visitando comparador)
+
+Tasa de conversión a referido calificado: X%
+
+Tasa de cierre por entidad financiera: Y%
+
+Ingresos:
+
+Comisión promedio por referido convertido: ₡Z
+
+Precio suscripción premium: ₡W/mes
+
+% de usuarios que pagan premium
+
+Costos:
+
+Desarrollo técnico inicial
+
+Operación mensual (servidores, APIs, etc.)
+
+Marketing y adquisición de usuarios
+
+Equipo (salarios)
+
+Proyección de ingresos (Año 1)
+[Tabla a desarrollar por trimestre]
+
+Trimestre
+
+Usuarios activos
+
+Referidos convertidos
+
+Ingresos por comisión
+
+Ingresos premium
+
+Total
+
+Q1
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Q2
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Q3
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Q4
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Proyección de gastos (Año 1)
+[Tabla a desarrollar por categoría]
+
+Categoría
+
+Q1
+
+Q2
+
+Q3
+
+Q4
+
+Total
+
+Desarrollo
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Operaciones
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Marketing
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Salarios
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Legal/Admin
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Flujo de caja y punto de equilibrio
+[A calcular basado en proyecciones]
+
+Estrategia de partnerships
+Propuesta de valor para entidades financieras
+Beneficios para los bancos/cooperativas:
+
+Canal de adquisición de clientes calificados
+
+Pre-filtrado de clientes por perfil y necesidad
+
+Mayor visibilidad para sus productos
+
+Competencia transparente que beneficia al mercado
+
+Acercamiento inicial
+Entidades prioritarias:
+
+Bancos públicos (Banco Nacional, BCR, Banco Popular)
+
+Bancos privados principales (BAC, BCT, Scotiabank)
+
+Cooperativas grandes (Coopealianza, Coopenae)
+
+Pitch a entidades:
+
+Presentar volumen potencial de referidos
+
+Modelo de comisión competitivo
+
+Integración técnica simple vía API
+
+Costo solo por resultado (CPA)
+
+Estructura de acuerdos
+[A definir en negociaciones:]
+
+Modelo de comisión (% o monto fijo)
+
+SLA de actualización de tasas
+
+Términos de integración API
+
+Exclusividades o restricciones
+
+Riesgos y mitigación
+Riesgo
+
+Probabilidad
+
+Impacto
+
+Mitigación
+
+Entidades financieras no quieren compartir datos
+
+Media
+
+Alto
+
+Empezar con datos públicos de SUGEF, demostrar valor con tracción inicial, ofrecer modelo win-win
+
+Barrera regulatoria no anticipada
+
+Baja
+
+Alto
+
+Validación legal temprana, flexibilidad para ajustar modelo si necesario
+
+Baja adopción de usuarios
+
+Media
+
+Alto
+
+Enfoque en educación financiera y marketing de contenido, SEO fuerte
+
+Márgenes de comisión muy bajos
+
+Media
+
+Medio
+
+Diversificar ingresos con premium, considerar otros productos (seguros, inversiones)
+
+Competidor entra al mercado
+
+Baja
+
+Medio
+
+Velocidad de ejecución, construir moat con partnerships exclusivos y marca fuerte
+
+Métricas clave (KPIs)
+Adquisición:
+
+Tráfico mensual (visitantes únicos)
+
+Costo por adquisición (CAC)
+
+Canales de adquisición más efectivos
+
+Engagement:
+
+Usuarios activos mensuales (MAU)
+
+Comparaciones realizadas por usuario
+
+Tiempo en plataforma
+
+Conversión:
+
+Tasa de conversión (visitas → referidos)
+
+Tasa de cierre (referidos → contratos)
+
+Ticket promedio por conversión
+
+Financieros:
+
+Ingresos mensuales recurrentes (MRR)
+
+Runway (meses de operación con capital actual)
+
+LTV:CAC ratio
+
+Próximos pasos inmediatos
+Validación regulatoria - Consultar con abogado especializado en fintech
+
+Refinamiento de unit economics - Investigar comisiones típicas en la industria
+
+Validación con clientes - Entrevistar 5-8 personas de segmentos objetivo
+
+Prototipo inicial - Desarrollar mockups de la plataforma
+
+Acercamiento a primera entidad - Pitch inicial a banco/cooperativa receptiva

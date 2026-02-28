@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap');
+
+:root {
+  --primary: #0A192F;
+  --primary-light: #112240;
+  --secondary: #64FFDA;
+  --accent: #FFD700;
+  --text: #CCD6F6;
+  --text-dim: #8892B0;
+  --glass: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--primary);
+  color: var(--text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Outfit', sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Navbar */
+nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--glass-border);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(10, 25, 47, 0.8);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  padding: 8rem 0 4rem;
+  text-align: center;
+  background: radial-gradient(circle at top right, rgba(100, 255, 218, 0.05), transparent);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #fff, var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: var(--text-dim);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+/* Comparison Tool */
+.tool-section {
+  padding: 4rem 0;
+}
+
+.filters-card {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 2rem;
+  backdrop-filter: blur(12px);
+  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--secondary);
+}
+
+.filter-group select, .filter-group input {
+  width: 100%;
+  background: var(--primary-light);
+  border: 1px solid var(--glass-border);
+  padding: 0.75rem;
+  border-radius: 8px;
+  color: var(--text);
+  outline: none;
+  transition: var(--transition);
+}
+
+.filter-group select:focus, .filter-group input:focus {
+  border-color: var(--secondary);
+}
+
+/* Rate Cards */
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.rate-card {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.rate-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--secondary);
+  box-shadow: 0 10px 30px -15px rgba(100, 255, 218, 0.2);
+}
+
+.rate-card .bank-name {
+  font-size: 0.875rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.rate-card .product-title {
+  font-size: 1.25rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.rate-card .cat-container {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.rate-card .cat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.rate-card .cat-label {
+  color: var(--text-dim);
+  font-size: 0.875rem;
+}
+
+.rate-card .details {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--glass-border);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.detail-item span {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.detail-item p {
+  font-weight: 500;
+}
+
+.btn-whatsapp {
+  margin-top: 1.5rem;
+  width: 100%;
+  background: var(--secondary);
+  color: var(--primary);
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn-whatsapp:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+}
+
+/* Security Batch */
+.security-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(100, 255, 218, 0.1);
+  color: var(--secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade {
+  animation: fadeIn 0.8s ease forwards;
+}

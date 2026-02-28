@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TasaJusta CR | Comparador de Tasas Transparentes</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container" style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+        <a href="/" class="logo">TasaJusta CR</a>
+        <div class="nav-links">
+          <span class="security-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Verificado por Blockchain
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero animate-fade">
+        <div class="container">
+          <h1>Compara tasas con transparencia</h1>
+          <p>La primera plataforma 100% costarricense que revela el CAT real y los costos ocultos de tus préstamos e inversiones.</p>
+        </div>
+      </section>
+
+      <section class="tool-section">
+        <div class="container">
+          <div class="filters-card animate-fade" style="animation-delay: 0.2s;">
+            <div class="filter-group">
+              <label for="product-type">Tipo de Producto</label>
+              <select id="product-type">
+                <option value="all">Ver todos</option>
+                <option value="hipotecario">Hipotecario</option>
+                <option value="personal">Personal</option>
+                <option value="vehiculo">Vehículo</option>
+                <option value="pyme">PYME</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="amount">Monto (₡)</label>
+              <input type="number" id="amount" placeholder="Ej: 5,000,000" />
+            </div>
+            <div class="filter-group">
+              <label for="term">Plazo (Años)</label>
+              <select id="term">
+                <option value="5">5 Años</option>
+                <option value="15">15 Años</option>
+                <option value="20">20 Años</option>
+                <option value="30">30 Años</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="results" class="results-grid animate-fade" style="animation-delay: 0.4s;">
+            <!-- Results will be injected here by main.js -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
